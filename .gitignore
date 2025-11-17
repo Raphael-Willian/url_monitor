@@ -1,0 +1,43 @@
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle ===
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# === Sistema operacional ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Ambiente / Segurança ===
+application.properties
+application.yml
+application-local.properties
+application-local.yml
+
+# Credenciais e arquivos sensíveis
+*.env
+
+# === Java ===
+*.class
